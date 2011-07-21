@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Metlink Time Table</string>
+	<string name="fav_menu"> Add to Favourites</string>
+	<string name="context_edit">Edit Name</string>
+	<string name="context_delete">Delete Item</string>
+	<string name="trip_prompt">Choose a trip</string>
+	<string name="route_prompt">Choose a route</string>
+	<string name="direction_prompt">Choose a direction</string>
+	<string-array name="direction_array">
+	<item>Inbound</item>
+	<item>Outbound</item>
+	</string-array>
+	<string name="stop_prompt">Enter a Bus Stop Number: </string>
+	<string name="empty_text"></string>
+	<string name="service_prompt1">Enter the Bus Service: </string>
+	<string name="service_prompt2">(if you are requesting for a specific service, if
+		none, just leave it empty)</string>
+	<string name="submit_button">submit</string>
+	<string name="dialog_title">Bus Alert</string>
+	<string name="option_title">Options</string>
+	<string name="tt_title">TimeTable</string>
+	<string name="fav_title">Favourites</string>
+	<string name="map_title">Map View</string>
+	
+	<!-- below are a list of strings that are used for the database	-->
+	<string name="route_id">route_id</string>
+	<string name="route_short_name">route_short_name</string>
+	<string name="route_type">route_type</string>
+	<string name="service_id">service_id</string>
+	<string name="trip_id">trip_id</string>
+	<string name="direction_id">direction_id</string>
+	<string name="block_id">block_id</string>
+	<string name="shape_id">shape_id</string>
+	<string name="stop_id">stop_id</string>
+	<string name="stop_sequence">stop_sequence</string>
+	<string name="pickup_type">pickup_type</string>
+	<string name="drop_off_type">drop_off_type</string>
+	<string name="stop_check">check</string>
+	<string name="shape_dist_traveled">shape_dist_traveled</string>
+	<string name="stop_lat">stop_lat</string>
+	<string name="stop_lon">stop_lon</string>
+	<string name="route_desc">route_desc</string>
+	<string name="agency_id">agency_id</string>
+	<string name="route_long_name">route_long_name</string>
+	<string name="trip_headsign">trip_headsign</string>
+	<string name="stop_name">stop_name</string>
+	<string name="arrival_time">arrival_time</string>
+	<string name="departure_time">departure_time</string>
+	<string name="data">data</string>
+	<string name="version">version</string>
+</resources>

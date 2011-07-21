@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView android:text="@string/route_prompt" android:id="@+id/routeText"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+	<Spinner android:id="@+id/routeSpin" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:prompt="@string/route_prompt"></Spinner>
+	<TextView android:text="@string/direction_prompt"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:id="@+id/directionText"></TextView>
+	<Spinner android:id="@+id/directionSpin" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:prompt="@string/direction_prompt"></Spinner>
+	<TextView android:id="@+id/directionText"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="@string/trip_prompt"></TextView>
+	<Spinner android:prompt="@string/trip_prompt"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:id="@+id/tripSpin"></Spinner>
+</LinearLayout>
